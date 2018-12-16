@@ -21,7 +21,12 @@ git commit (-m"messege")
 githubのURLをコピー
 
 前準備
+リモートの設定
 git remote add origin URL
+リモートの削除
+get remote rm origin
+リモートの確認
+git remote show origin
 
 プッシュ
 git push -u origin master
