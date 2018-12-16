@@ -11,5 +11,37 @@ git init (dirname)
 ステータスの確認
 git status
 
-ステージング
+インデックスに登録
 git add filename(*)
+
+コミット
+git commit (-m"messege")
+
+リモートリポジトリの作成
+githubのURLをコピー
+
+前準備
+git remote add origin URL
+
+プッシュ
+git push -u origin master
+
+プル
+git pull -u origin master
+
+クローンを作成
+git clone URL dirname
+
+ブランチ
+トッピングブランチを作成
+git branch dirname 
+確認
+git branch 
+スイッチ
+git checkout (-b) dirname
+
+ブランチのマージ
+git merge dirname
+
+ブランチの削除
+git branch -d dirname
